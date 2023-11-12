@@ -1,86 +1,52 @@
 import './Menu.css'
+import Logo from '../assets/logo2.png'
 export function Menu() {
     return (
         <>
-            <nav className="navbar navbar-expand-lg menu navbar-dark fixed-top">
-                <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
-                        TERPEL
-                    </a>
-                    <button
-                        className="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span className="navbar-toggler-icon" />
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">
-                                    ¿QUIENES SOMOS?
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">
-                                    SOSTENIBILIDAD
-                                </a>
-                            </li>
-                            <li className="nav-item dropdown">
-                                <a
-                                    className="nav-link dropdown-toggle"
-                                    href="#"
-                                    role="button"
-                                    data-bs-toggle="dropdown"
-                                    aria-expanded="false"
-                                >
-                                    TRABAJA CON NOSOTROS
-                                </a>
-                                <ul className="dropdown-menu">
-                                    <li>
-                                        <a className="dropdown-item" href="#">
-                                            MANEJO DE DATOS PERSONALES
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a className="dropdown-item" href="#">
-                                            REPORTES CONFIDENCIALES
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <hr className="dropdown-divider" />
-                                    </li>
-                                    <li>
-                                        <a className="dropdown-item" href="#">
-                                            CREG 024
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link disabled" aria-disabled="true">
-                                MANEJO DE DATOS PERSONALES
-                                </a>
-                            </li>
-                        </ul>
-                        <form className="d-flex" role="search">
-                            <input
-                                className="form-control me-2"
-                                type="search"
-                                placeholder="Search"
-                                aria-label="Search"
-                            />
-                            <button className="btn btn-outline-success" type="submit">
-                                Search
-                            </button>
-                        </form>
-                    </div>
-                </div>
-            </nav>
+          
+        <nav className="navUno">
+            <ul>
+              <li><a href="#quienes-somos">¿Quiénes somos?</a></li>
+              <li><a href="#sostenibilidad">Sostenibilidad</a></li>
+              <li><a href="#trabajanosotros">Trabaja con nosotros</a></li>
+              <li><a href="#manejo-de-datos-personales">Manejo de datos personales</a></li>
+              <li><a href="#reportes-confidenciales">Reportes confidenciales</a></li>
+              <li><a href="#creg">CREG 024</a></li>
+              <li><a href="#estaciones">Encuéntranos<i class='bx bx-map'></i></a></li>
+              <li class="busqueda"><i class='bx bx-search'></i></li>
+            </ul>
+            
+          </nav>
+          
+    
+      
+        
+          <nav className="navDos" >
+            <ul>	
+                <img  src={Logo} width="100px" height="100px" />
+    
+                   <li><a href="#empresas">Empresas</a>
+                    
+                   </li>
+              
+                
+                <li ><a href="#movilidad-y-energias">Nueva movilidad y Energías</a></li> 
+                <li><a href="#programas">Programas</a> </li>
+                <li ><a href="#estaciones-de-servicio">Estaciones de Servicio</a>
+                  
+                </li>
+               
+                <li ><a href="#lubricantes" >Lubricantes</a></li> 
+                <li><a href="#proveedores">Proveedores</a></li> 
+                <li><a href="#accionistas-e-inversionistas">Accionistas e Inversionistas</a>
+                         
+                     
+                </li>
+        </ul>
+    
+                   
+       </nav>
+       
 
         </>
     )
