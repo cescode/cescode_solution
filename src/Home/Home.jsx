@@ -1,16 +1,14 @@
 import './Home.css'
 import { Menu } from '../Menu/Menu'
+import { Banner } from '../Banner/Banner'
+
 export function Home() {
     return (
         <>
             <header>
                 <Menu></Menu>
-            </header>
-
-            <section className='banner'>
-                <p>SOLUCION RETO EQUIPO CESCODE</p>
-            </section>
-            
+                <Banner></Banner>
+            </header> 
         </>
     )
 }
