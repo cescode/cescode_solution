@@ -1,0 +1,54 @@
+/* Bannerppal.css */
+
+.banner-container {
+    background-image: url('../assets/terpel.png');
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    color: white;
+  }
+  
+  .slick-slide {
+    background-color: rgba(255, 0, 0, 0.5);
+  }
+  
+  .item-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 580px;
+  }
+  
+  .slide-image {
+    width: 500px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto;
+    margin-left: -50px;
+  }
+  
+  .item-text {
+    text-align: center;
+    max-width: 400px;
+  }
+  
+  /* Agrega estos estilos para las flechas de navegación */
+  .slick-prev,
+  .slick-next {
+    font-size: 24px;
+    color: white;
+    top: 200px;
+  }
+  
+  .slick-prev {
+    left: 20px;
+    z-index: 1;
+  }
+  
+  .slick-next {
+    right: 20px;
+    z-index: 1;
+  }
+  

@@ -1,5 +1,9 @@
 import './Home.css'
 import { Menu } from '../Menu/Menu'
+import Bannerppal from '../Bannerppal/Bannerppal'
+import Footer from '../Footer/Footer'
+
+
 export function Home() {
     return (
         <>
@@ -7,10 +11,11 @@ export function Home() {
                 <Menu></Menu>
             </header>
 
-            <section className='banner'>
-                <p>SOLUCION RETO EQUIPO CESCODE</p>
-            </section>
-            
+
+            <Bannerppal />
+
+            <Footer />
+
         </>
     )
 }
