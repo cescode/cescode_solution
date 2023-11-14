@@ -1,0 +1,57 @@
+.bloque_Servicios{
+    background-color: white;
+    width: 100%;
+    height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.carrusel{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.carrusel button{
+    background-color: red;
+    position: relative;
+    top: -120px;
+    margin-left: 20px;
+    width: 120px;
+    color: white;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.imagenGazel {
+    width: 470px;
+}
+.imagenAltoque{
+    width: 470px;
+}
+.imagenTerpel{
+    width: 470px;
+}
+.carrusel img{
+    border-radius: 30px;  
+}
+.carrusel h1{
+    position: relative;
+    top: -120px;
+    margin-left: 20px;
+    color: white;
+}
+
+
+
+
+
+
+

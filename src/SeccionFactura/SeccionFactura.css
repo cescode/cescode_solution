@@ -1,0 +1,39 @@
+.bloque_Factura{
+    width: 100%;
+    position: relative;
+    top: 50px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.bloque_Factura img{
+    border-radius: 30px;
+    position: relative;
+    left: 50px;
+}
+
+.bloque_Factura button{
+    
+        background-color: red;
+        color: white;
+        width: 150px;
+        border-radius: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+}
+
+.bloque_Factura h1{
+    font-size: 60px;
+}
+
+.bloque_Factura p{
+    font-size: 17px;
+}
+
+.bloque_Factura div{
+    position: relative;
+    top: 150px;
+}
+
